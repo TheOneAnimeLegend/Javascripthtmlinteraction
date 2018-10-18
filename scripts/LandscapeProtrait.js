@@ -13,7 +13,8 @@ function testNaN (number) {
 }
 
 function geometry (width, height) {
-
+  if (wdth == height) return 'Square';
+  return (width > height) ? 'Landscape' : 'Portrait';
 // This coding illustrated the advanced method
 function main (// get the value of the width input field
 firstNumber = document.getElementById("textfield1").value;
@@ -39,6 +40,3 @@ else {
   document.getElementById("large").innerHTML = "what did you say" + geometry (firstNumber, secondNumber);
  }
 }
-) {
-
-     let (testNumber,)
