@@ -1,4 +1,4 @@
-//console.log("You made it to the LandscapeProtrait.js!")
+console.log("You made it to the LandscapeProtrait.js!")
 
 let stop = false;
 
